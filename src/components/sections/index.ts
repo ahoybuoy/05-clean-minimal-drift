@@ -1,0 +1,6 @@
+export * from './CTA'
+export * from './FAQ'
+export * from './Features'
+export * from './Hero'
+export * from './Pricing'
+export * from './Testimonials'
