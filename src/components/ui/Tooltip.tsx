@@ -22,7 +22,7 @@ export function Tooltip({ content, children, position = 'top', className, ...pro
         <div
           role="tooltip"
           className={cn(
-            'absolute z-50 rounded-md bg-gray-900 px-2 py-1 text-xs text-white shadow-lg',
+            'absolute z-50 max-w-[280px] rounded-md bg-gray-900 px-2 py-1 text-xs text-white shadow-lg',
             {
               'bottom-full left-1/2 mb-2 -translate-x-1/2': position === 'top',
               'top-full left-1/2 mt-2 -translate-x-1/2': position === 'bottom',
